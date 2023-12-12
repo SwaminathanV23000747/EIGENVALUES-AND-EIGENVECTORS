@@ -17,14 +17,13 @@ End the program.
 ```python
 #Developed by: Swaminathan V
 #RegisterNumber: 23000747
-
 import numpy as np
 a=np.array([[4,2],[2,4]])
 values,vectors=np.linalg.eig(a)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
 ```
 ## Output:
-![4-Eigen values](https://github.com/SwaminathanV23000747/EIGENVALUES-AND-EIGENVECTORS/assets/148931113/51b14a1c-d16e-4612-a017-4eb90dda9d16)
+![Alt text](<4-Eigen values.png>)
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
